@@ -16,8 +16,8 @@ function Home2() {
 
             <p className="home-about-body">
 
-              I’m a programmer with a strong passion for coding and a solid foundation
-               in <b className="blue">JavaScript</b>. I love bringing ideas to life through
+              I’m a Frontend Developer with a strong passion for coding and a solid foundation
+               in <b className="blue">HTML, CSS and JavaScript</b>. I love bringing ideas to life through
                 code—it’s incredibly rewarding to see a project go from concept to reality. 
                 I work well both independently and in team settings, and I believe delivering 
                 excellent customer service should always be a top priority.
@@ -28,8 +28,10 @@ function Home2() {
               <p>I am particularly interested in:</p>
               <ul>
                 <li>
-                  Building dynamic web products using{" "}
-                  <b className="blue">JavaScript</b>
+                  Building CRM platforms using{" "}
+                  <b className="blue">Hubspot</b>{" "}
+                  <b className="blue">Salesforce</b>{" "}
+                  <b className="blue">Mailchimps</b>{" "}
                 </li>
                 <li>
                   Creating modern frameworks like{" "}
