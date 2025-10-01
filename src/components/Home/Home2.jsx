@@ -11,65 +11,67 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="blue"> INTRODUCE </span> MYSELF
+              LET ME <span className="blue">INTRODUCE</span> MYSELF
             </h1>
 
             <p className="home-about-body">
-
-              I’m a Frontend Developer with a strong passion for coding and a solid foundation
-               in <b className="blue">HTML, CSS and JavaScript</b>. I love bringing ideas to life through
-                code—it’s incredibly rewarding to see a project go from concept to reality. 
-                I work well both independently and in team settings, and I believe delivering 
-                excellent customer service should always be a top priority.
-
+              I’m a Frontend and Email Marketing Developer with a strong passion for coding and a solid foundation in{" "}
+              <b className="blue">HTML, CSS, and JavaScript</b>. I love bringing ideas to life through code—it’s incredibly
+              rewarding to see a project evolve from concept to reality. I thrive both independently and in team settings,
+              and I believe that delivering excellent customer service should always be a top priority.
             </p>
 
             <div className="home-about-body">
-              <p>I am particularly interested in:</p>
+              <p>I have experience in:</p>
               <ul>
                 <li>
+                  Creating websites such as{" "}
+                  <b className="blue">E-commerce Stores</b>,{" "}
+                  <b className="blue">Landing Pages</b>, and{" "}
+                  <b className="blue">About Pages</b>
+                </li>
+                <li>
+                  Specializing in four key areas of Email Marketing:{" "}
+                  <b className="blue">Segmentation</b>,{" "}
+                  <b className="blue">Personalization</b>,{" "}
+                  <b className="blue">Automation</b>, and{" "}
+                  <b className="blue">Deliverability</b>
+                </li>
+                <li>
                   Building CRM platforms using{" "}
-                  <b className="blue">Hubspot</b>{" "}
-                  <b className="blue">Salesforce</b>{" "}
-                  <b className="blue">Mailchimps</b>{" "}
+                  <b className="blue">HubSpot</b>,{" "}
+                  <b className="blue">Salesforce</b>, and{" "}
+                  <b className="blue">Mailchimp</b>
                 </li>
-                <li>
-                  Creating modern frameworks like{" "}
-                  <b className="blue">React.js</b> and{" "}
-                  <b className="blue">Vite.js</b>
-                </li>
-                <li>
-                  Crafting Software and Video Games with{" "}
-                  <b className="blue">Python</b> and{" "}
+                {/* <li>
+                  Crafting software and video games with{" "}                  <b className="blue">Python</b> and{" "}
                   <b className="blue">C#</b>
-                </li>
+                </li> */}
               </ul>
             </div>
 
             <p className="home-about-body">
-              Currently, I'm focusing on freelancing by building e-commerce solutions using Shopify
-               or creating applications with React, Vite.js, Firestore, and Shopify. I'm also actively
-                developing my skills by working on various projects. I'm excited to connect with like-minded
-                individuals and contribute to interesting projects as I continue this coding journey!
+              I'm currently freelancing—building e-commerce apps through hands-on projects while staying 
+              current with email marketing and web technologies. Excited to collaborate with like-minded 
+              pros and keep growing on this coding journey.
             </p>
           </Col>
 
-              <Col md={4} style={{ paddingTop: 200, paddingLeft: "70px" }}>
-                        <img
-                          src={homeLogo}
-                          alt="home pic"
-                          className="img-fluid"
-                          style={{ maxHeight: "450px", paddingTop: "1.2em" }}
-                        />
-                      </Col>
-
+          <Col md={4} style={{ paddingTop: 200, paddingLeft: "70px" }}>
+            <img
+              src={homeLogo}
+              alt="home pic"
+              className="img-fluid"
+              style={{ maxHeight: "450px", paddingTop: "1.2em" }}
+            />
+          </Col>
         </Row>
 
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="blue">connect </span>with me
+              Feel free to <span className="blue">connect</span> with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

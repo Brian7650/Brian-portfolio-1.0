@@ -14,9 +14,9 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <FaHubspot />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <FaSalesforce />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <FaMailchimp />
       </Col>
@@ -24,9 +24,9 @@ function Toolstack() {
         <FaGithub />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiRender />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
       </Col>
