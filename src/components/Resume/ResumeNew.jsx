@@ -1,11 +1,15 @@
 import React, { useState, useEffect } from "react";
-import { pdfjs } from "react-pdf";
-pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.mjs"; // or use CDN if local one fails
+import { Document, Page, pdfjs } from "react-pdf";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page } from "react-pdf";
+
+// Set the worker dynamically so it always matches the pdfjs version
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  "pdfjs-dist/build/pdf.worker.min.mjs",
+  import.meta.url
+).toString();
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -28,17 +32,16 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            Download CV
+            &nbsp;Download CV
           </Button>
         </Row>
 
-        {/* PDF Viewer with error logging */}
+        {/* PDF Viewer */}
         <Row className="resume">
           <Document
             file="/Brian_Bartley_resume.pdf"
             className="d-flex justify-content-center"
             onLoadError={(error) => console.error("PDF Load Error:", error)}
-            onSourceError={(error) => console.error("PDF Source Error:", error)}
           >
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
@@ -53,7 +56,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            Download CV
+            &nbsp;Download CV
           </Button>
         </Row>
       </Container>

@@ -13,7 +13,7 @@ function AboutCard() {
             from <span className="purple"> Brampton, Canada.</span>
             <br />
             <br />
-              an Email and Frontend Developer driven by a love for coding and a constant desire to grow in web, 
+              Email and Frontend Developer driven by a love for coding and a constant desire to grow in web, 
               email, and software development. I thrive on turning creative ideas into real-world solutions.
                <br />
               <br />
@@ -21,7 +21,7 @@ function AboutCard() {
               service in every project.
             <br />
             <br />
-              My frontend toolkit includes HTML5, CSS3, JavaScript, Bootstrap, Photoshop, and GitHub. 
+              My frontend toolkit includes HTML5, CSS3, JavaScript, React, Bootstrap, Photoshop, and Web design. 
               I value integrity, optimism, and a strong work ethic, and I’m eager to keep learning from 
               seasoned professionals in the field.
 

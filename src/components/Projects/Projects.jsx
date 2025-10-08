@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 import work1 from "../../assets/Projects/work1.jpg";
 import work2 from "../../assets/Projects/work2.jpg";
-import work3 from "../../assets/Projects/work3.webp";
+// import work3 from "../../assets/Projects/work3.webp";
 import work4 from "../../assets/Projects/work4.webp";
 import work5 from "../../assets/Projects/work5.webp";
 
@@ -35,6 +35,21 @@ function Projects() {
             />
           </Col>
 
+          {/* Email and Landing Page Portfolio */}
+          <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={work5}
+              isBlog={false}
+              title="Email and Landing Page Portfolio"
+              description="HTML Email Campaigns and Landing Pages created with HTML5, CSS3, JavaScript Bootstrap, Mailchimp. Used email on Acid
+              to test the email templates across different email clients and devices.
+              This project showcases my skills in creating responsive and visually appealing email templates and landing pages."
+              ghLink="https://brian7650.github.io/brian-portfolio-1.1/"
+              // demoLink="https://brian7650.github.io/brian-portfolio-1.1/"              
+            />
+          </Col>
+          
+
            {/* social blog app */}
           <Col md={5} className="project-card">
             <ProjectCard
@@ -61,7 +76,7 @@ function Projects() {
           </Col>
 
            {/* Face Scan App */}
-          <Col md={5} className="project-card">
+          {/* <Col md={5} className="project-card">
             <ProjectCard
               imgPath={work3}
               isBlog={false}
@@ -72,22 +87,9 @@ function Projects() {
               ghLink="https://github.com/Brian7650/Face-App-Project-Front"
               demoLink="https://face-projectfront.onrender.com/"              
             />
-          </Col>
+          </Col> */}
 
-          {/* Email and Landing Page Portfolio */}
-          <Col md={5} className="project-card">
-            <ProjectCard
-              imgPath={work5}
-              isBlog={false}
-              title="Email and Landing Page Portfolio"
-              description="HTML Email Campaigns and Landing Pages created with HTML5, CSS3, JavaScript Bootstrap, Mailchimp. Used email on Acid
-              to test the email templates across different email clients and devices.
-              This project showcases my skills in creating responsive and visually appealing email templates and landing pages."
-              ghLink="https://brian7650.github.io/brian-portfolio-1.1/"
-              // demoLink="https://brian7650.github.io/brian-portfolio-1.1/"              
-            />
-          </Col>
-          
+
         </Row>
       </Container>
     </Container>
