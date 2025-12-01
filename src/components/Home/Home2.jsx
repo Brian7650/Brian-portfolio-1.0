@@ -28,20 +28,20 @@ function Home2() {
                   Creating websites such as{" "}
                   <b className="blue">E-commerce Stores</b>,{" "}
                   <b className="blue">Landing Pages</b>, and{" "}
-                  <b className="blue">About Pages</b>
+                  <b className="blue">About Pages.</b>
                 </li>
                 <li>
-                  Specializing in four key areas of Email Marketing:{" "}
+                  Specializing in four key areas of  <b className="blue">Email Marketing:</b>{" "}
                   <b className="blue">Segmentation</b>,{" "}
                   <b className="blue">Personalization</b>,{" "}
                   <b className="blue">Automation</b>, and{" "}
-                  <b className="blue">Deliverability</b>
+                  <b className="blue">Deliverability.</b>
                 </li>
                 <li>
                   Building CRM platforms using{" "}
                   <b className="blue">HubSpot</b>,{" "}
                   <b className="blue">Salesforce</b>, and{" "}
-                  <b className="blue">Mailchimp</b>
+                  <b className="blue">Mailchimp.</b>
                 </li>
                 {/* <li>
                   Crafting software and video games with{" "}                  <b className="blue">Python</b> and{" "}
