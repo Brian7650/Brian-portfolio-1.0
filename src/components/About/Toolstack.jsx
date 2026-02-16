@@ -1,7 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiRender, SiNetlify } from "react-icons/si";
-import { FaHubspot, FaSalesforce, FaMailchimp, FaShopify } from 'react-icons/fa';
+import { SiRender, SiNetlify, SiPostman, SiPostgresql } from "react-icons/si";
+import { FaHubspot, FaSalesforce, FaMailchimp, FaShopify,  } from 'react-icons/fa';
+import { DiMongodb, DiNodejs } from "react-icons/di";
 import { FaGithub } from 'react-icons/fa';
 
 
@@ -27,9 +28,27 @@ function Toolstack() {
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiRender />
       </Col> */}
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostman />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRender />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
       </Col>
+
     </Row>
   );
 }

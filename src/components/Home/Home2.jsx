@@ -15,34 +15,46 @@ function Home2() {
             </h1>
 
             <p className="home-about-body">
-              I’m a Frontend and Email Marketing Developer with a strong passion for coding and a solid foundation in{" "}
-              <b className="blue">HTML, CSS, and JavaScript</b>. I love bringing ideas to life through code—it’s incredibly
-              rewarding to see a project evolve from concept to reality. I thrive both independently and in team settings,
-              and I believe that delivering excellent customer service should always be a top priority.
+              {/* I’m a Web Developer and Email Marketing Specialist with a strong passion for coding and building 
+              digital products that work. I’m skilled in{" "} */}
+              <b className="blue">HTML, CSS, Javascript, Python, SQL & C#</b>. and I love bringing ideas to life 
+              through clean, functional code. Watching a project grow from concept to reality is rewarding. 
+              I thrive both independently and in collaborative team environments, and I believe customer 
+              service should always be at the heart of every digital experience.
             </p>
 
             <div className="home-about-body">
-              <p>I have experience in:</p>
+              <p>What I focus on:</p>
               <ul>
                 <li>
-                  Creating websites such as{" "}
+                  Building CRM platforms using{" "}
+                  <b className="blue">HubSpot</b>,{" "}
+                  <b className="blue">Salesforce</b>, and{" "}
+                  <b className="blue">Mailchimp.</b><br/>
+                </li>   
+                <br/>
+                <li>
+                  Creating modern websites such as{" "}
                   <b className="blue">E-commerce Stores</b>,{" "}
                   <b className="blue">Landing Pages</b>, and{" "}
-                  <b className="blue">About Pages.</b>
+                  <b className="blue">About Pages.</b><br/>
                 </li>
+                <br/>
                 <li>
                   Specializing in four key areas of  <b className="blue">Email Marketing:</b>{" "}
                   <b className="blue">Segmentation</b>,{" "}
                   <b className="blue">Personalization</b>,{" "}
                   <b className="blue">Automation</b>, and{" "}
-                  <b className="blue">Deliverability.</b>
+                  <b className="blue">Deliverability.</b><br/>
                 </li>
+                <br/>
                 <li>
-                  Building CRM platforms using{" "}
-                  <b className="blue">HubSpot</b>,{" "}
-                  <b className="blue">Salesforce</b>, and{" "}
-                  <b className="blue">Mailchimp.</b>
-                </li>
+                  Building dynamic web products using{" "}
+                  <b className="blue">React</b>{" "}
+                  <b className="blue">JavaScript</b> and{" "}
+                  <b className="blue">Bootstrap.</b>
+                </li>     
+                
                 {/* <li>
                   Crafting software and video games with{" "}                  <b className="blue">Python</b> and{" "}
                   <b className="blue">C#</b>
@@ -51,9 +63,11 @@ function Home2() {
             </div>
 
             <p className="home-about-body">
-              I'm currently freelancing—building e-commerce apps through hands-on projects while staying 
-              current with email marketing and web technologies. Excited to collaborate with like-minded 
-              pros and keep growing on this coding journey.
+              I’m currently freelancing—building e-commerce apps through hands-on projects while staying 
+              up to date with the latest in web technologies. I thrive both independently 
+              and in collaborative team environments, and I’m always excited to connect with like-minded 
+              professionals and keep leveling up on this coding journey. Exceptional customer service is at 
+              the heart of everything I build.
             </p>
           </Col>
 
