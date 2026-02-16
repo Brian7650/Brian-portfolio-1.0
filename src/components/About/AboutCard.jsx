@@ -9,28 +9,24 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
 
-            Hi, I’m <span className="purple">Brian Bartley</span>—your friendly neighbourhood developer from <span className="purple">Brampton, 
-            Canada</span>, building cool things on the web one caffeine-fueled idea at a time.
+            I’m <span className="purple">Brian Bartley</span>—a developer and email marketing specialist from <span className="purple">Brampton, 
+            Canada</span>, building thoughtful, creative, and user‑focused digital experiences one caffeine‑powered idea at a time.
             <br/>
             <br />
-              I enjoy both Email Marketing and Frontend Development for numerous reasons from the design aspect because I have an artistic side
-              to me. Finding the matching colors or correct fonts and just testing for correct place and functions for Email Campaigns and Website. 
-              Also like the photography side because I like to find the right photos for the projects I work on.
+              I’ve always been drawn to the artistic side of tech. Whether I’m designing an email campaign or crafting a frontend interface, 
+              I love working with color, typography, layout, and photography to create visuals that feel intentional and engaging. Finding 
+              the right image, pairing the right fonts, and shaping a clean, functional design is where my creativity really comes alive.
             
                <br />
               <br />
-                For  using Shopify or Express.js with MongoDB for the backend. I try to putmy best to put a easy functional and excellent security practice. 
-                Creating forms and testing logins and signups and making sure the data is being stored correctly. I also like to add a special feature to 
-                the website or application by adding an API. 
+                On the development side, I enjoy building with Shopify, Express.js, and MongoDB to create secure, reliable, and easy‑to‑use 
+                applications. I’m meticulous about forms, authentication, and data flow—making sure everything works smoothly behind the scenes. 
+                I also like adding unique features through APIs to give each project something special. 
 
             <br />
             <br />
-                The creative and the innnovative part of trhes fields is what drives and excites me when building an application.
-                The sky is the limits in what you can create.
-
-              {/* My frontend toolkit includes HTML5, CSS3, JavaScript, React, Bootstrap, Photoshop, and Web design. 
-              I value integrity, optimism, and a strong work ethic, and I’m eager to keep learning from 
-              seasoned professionals in the field. */}
+                What drives me most is the blend of creativity and innovation in this field. There’s always something new to learn, something new 
+                to build, and endless room to push ideas further. For me, the sky really is the limit.
 
             <br />
 
