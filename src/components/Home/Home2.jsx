@@ -15,9 +15,9 @@ function Home2() {
             </h1>
 
             <p className="home-about-body">
-              {/* I’m a Web Developer and Email Marketing Specialist with a strong passion for coding and building 
-              digital products that work. I’m skilled in{" "} */}
-              <b className="blue">HTML, CSS, Javascript, Python, SQL & C#</b>. and I love bringing ideas to life 
+              I’m a Web Developer and Email Marketing Specialist with a strong passion for coding and building 
+              digital products that work. I’m skilled in{" "}
+              <b className="blue">HTML, CSS, Javascript, Python, SQL & C#</b>. I love bringing ideas to life 
               through clean, functional code. Watching a project grow from concept to reality is rewarding. 
               I thrive both independently and in collaborative team environments, and I believe customer 
               service should always be at the heart of every digital experience.
@@ -63,11 +63,10 @@ function Home2() {
             </div>
 
             <p className="home-about-body">
-              I’m currently freelancing—building e-commerce apps through hands-on projects while staying 
-              up to date with the latest in web technologies. I thrive both independently 
-              and in collaborative team environments, and I’m always excited to connect with like-minded 
-              professionals and keep leveling up on this coding journey. Exceptional customer service is at 
-              the heart of everything I build.
+              I’m currently freelancing—building e‑commerce applications through hands‑on projects while staying up 
+              to date with the latest web technologies. I enjoy connecting with like‑minded professionals and 
+              continuously leveling up on this coding journey. No matter the project, customer service and user
+               experience always come first.
             </p>
           </Col>
 
